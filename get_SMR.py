@@ -39,4 +39,4 @@ Counties_SMR= VA_SMR.groupby('PatientFIPS')['PatientICN'].agg(lambda x:x.count()
 ZIPS_SMR= VA_SMR.groupby('PatientZIP')['PatientICN'].agg(lambda x:x.count()).reset_index()
 
 
-""" we can also get SA/SI data throughout the similar process"""
+""" we can also get SA/SI data throughout the similar process """
