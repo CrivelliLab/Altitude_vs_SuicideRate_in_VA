@@ -37,3 +37,6 @@ VA_SMR=pop.merge(VA_SMR_raw_data,how='inner',on=['PatientICN'])
 #each patient has unique identifier called PatientICN 
 Counties_SMR= VA_SMR.groupby('PatientFIPS')['PatientICN'].agg(lambda x:x.count()).reset_index()
 ZIPS_SMR= VA_SMR.groupby('PatientZIP')['PatientICN'].agg(lambda x:x.count()).reset_index()
+
+
+""" we can also get SA/SI data throughout the similar process"""
