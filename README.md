@@ -1,5 +1,5 @@
 # Altitude_vs_SuicideRate_in_VA
-association between altitude and suicide deaths, suicide attempts, and suicidal ideation among U.S. veterans at both the patient and geospatial level
+Association between altitude and suicide deaths, suicide attempts, and suicidal ideation among U.S. veterans at both the patient and geospatial level
 
 'get_SMR.py' is the sample code showing how we got Suicide Mortality data from VA_NDI(ational Death Index) dataset.
 
